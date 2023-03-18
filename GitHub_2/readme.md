@@ -1,6 +1,6 @@
-## 1. На локальном репозитории сделать ветки для:
-	        Зоходим в папку main и там создаем новые ветки > git checkout main
- Postman      
+#### 1. На локальном репозитории сделать ветки для:
+##### Зоходим в папку main и там создаем новые ветки > git checkout main
+ ###Postman      
   git branch Postman,  
  Jmeter       === git branch Jmeter,         
  CheckLists   === git branch CheckLists,    
