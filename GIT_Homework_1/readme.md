@@ -1,7 +1,7 @@
 ## JSON
  #### 4. Создать внешний репозиторий c названием JSON. 
  #### 5. Клонировать репозиторий JSON на локальный компьютер. 
- === git clone https://github.com/P-e-t-e-r-Parker/JSON.git
+	 === git clone https://github.com/P-e-t-e-r-Parker/JSON.git
  #### 6. Внутри локального JSON создать файл “new.json”.  
  === touch new.json.
  #### 7. Добавить файл под гит.   
