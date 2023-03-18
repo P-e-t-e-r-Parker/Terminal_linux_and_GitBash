@@ -1,21 +1,25 @@
-#### 1. На локальном репозитории сделать ветки для:
-##### Зоходим в папку main и там создаем новые ветки 
+#### :heavy_check_mark: 1. На локальном репозитории сделать ветки для:
+###### Зоходим в папку main и там создаем новые ветки 
 	git checkout main
- #### :heavy_check_mark: Postman      
-  git branch Postman,  
- #### :heavy_check_mark: Jmeter        git branch Jmeter,         
- #### :heavy_check_mark: CheckLists    git branch CheckLists,    
- #### :heavy_check_mark: Bag Reports   git branch Bag Reports,  
- #### :heavy_check_mark: SQL           git branch SQL,            
- #### :heavy_check_mark: Charles       git branch Charles,         
- #### :heavy_check_mark: Mobile testing  git branch Mobile testing,  
+ ##### :heavy_check_mark: Postman      
+ 	git branch Postman,  
+ ##### :heavy_check_mark: Jmeter        
+ 	 git branch Jmeter,         
+ ##### :heavy_check_mark: CheckLists     
+ 	git branch CheckLists,    
+ ##### :heavy_check_mark: Bag Reports   
+ 	 git branch Bag Reports,  
+ ##### :heavy_check_mark: SQL            
+ 	git branch SQL,            
+ ##### :heavy_check_mark: Charles       
+ 	 git branch Charles,         
+ ##### :heavy_check_mark: Mobile testing   
+ 	git branch Mobile testing,  
 
 #### :heavy_check_mark: 2. Запушить все ветки на внешний репозиторий  
 	 git push -u origin --all
-#### :heavy_check_mark: 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
-	 touch test.txt
-	 vim test.txt
-	 Шаги для воспроизведения:
+#### :heavy_check_mark: 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта:
+
                  1. Открыть
                  2. Кликнуть
                  3. Ввести в поле значение N1
@@ -27,6 +31,10 @@
 
                  Ожидаемый результат:
                  В поле Result отображается V2.
+		 
+		 	 touch test.txt
+	 vim test.txt
+	 Шаги для воспроизведения:
 
 #### :heavy_check_mark: 4. Запушить структуру багрепорта на внешний репозиторий 
 	 git add .
