@@ -18,7 +18,7 @@
 
 #### :heavy_check_mark: 2. Запушить все ветки на внешний репозиторий  
 	 git push -u origin --all
-#### :heavy_check_mark: 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта:
+#### :heavy_check_mark: 3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
  Шаги для воспроизведения:
  1. Открыть
  2. Кликнуть
@@ -42,9 +42,11 @@
 	 git push
 #### :heavy_check_mark: 5. Вмержить ветку Bag Reports в Main 
 	git checkout main (переходим в ветку main, и уже туда мержем ветку баг репортс)
-	 git merge Bag_Reports
-#### :heavy_check_mark: 6. Запушить main на внешний репозиторий. === git push
-#### :heavy_check_mark: 7. В ветке CheckLists набросать структуру чек листа. === touch check_lists.txt
+	git merge Bag_Reports
+#### :heavy_check_mark: 6. Запушить main на внешний репозиторий. 
+	git push
+#### :heavy_check_mark: 7. В ветке CheckLists набросать структуру чек листа. 
+	touch check_lists.txt
 #### :heavy_check_mark: 8. Запушить структуру на внешний репозиторий
 	 git add .
 	 git commit -m "checklists file"
